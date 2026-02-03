@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Share Tech Mono', monospace;
+;
+}
+
+body {
+    background-color: #000000;
+    color: #00ff41;
+    line-height: 1.6;
+}
+
+/* HEADER */
+header {
+    text-align: center;
+    padding: 70px 20px;
+    border-bottom: 1px solid #00ff41;
+}
+
+header h1 {
+    font-size: 3rem;
+    text-shadow: 0 0 10px #00ff41;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    color: #00cc33;
+}
+
+/* SECTIONS */
+section {
+    padding: 50px 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #00ff41;
+    border-bottom: 1px solid #00ff41;
+    display: inline-block;
+    padding-bottom: 5px;
+    text-shadow: 0 0 6px #00ff41;
+}
+
+/* SKILLS LIST */
+ul {
+    list-style: none;
+    margin-left: 10px;
+}
+
+ul li::before {
+    content: ">";
+    margin-right: 10px;
+    color: #00ff41;
+}
+
+/* PROJECT CARDS */
+.project {
+    background-color: #050505;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    border: 1px solid #00ff41;
+    box-shadow: 0 0 10px #00ff41;
+}
+
+/* LINKS */
+a {
+    color: #00ff41;
+    text-decoration: none;
+}
+
+a:hover {
+    text-shadow: 0 0 8px #00ff41;
+}
+
+/* CONTACT */
+#contact p {
+    margin-bottom: 8px;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid #00ff41;
+    margin-top: 40px;
+    font-size: 0.9rem;
+    color: #00cc33;
+}
